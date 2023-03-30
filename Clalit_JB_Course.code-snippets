@@ -1,0 +1,15 @@
+{
+	"css html, body, #root ": {
+		"prefix": "Clalit_JB_Course html, body, #root",
+		"body": [
+		  "",
+		  "html, body, #root {",
+		  "    height: 100%;",
+		  "    width: 100%;",
+		  "    padding: 0px;",
+		  "    margin: 0px;",
+		  "}"
+		],
+		"description": "css html, body, #root "
+	  }
+}
