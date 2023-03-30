@@ -13,6 +13,7 @@
 		"description": "css html, body, #root "
 	  }
 }
+,
 	"routing": {
 		"prefix": "Clalit_JB_Course routing",
 		"body": [
@@ -36,3 +37,4 @@
 		],
 		"description": "routing"
 	  }
+,
