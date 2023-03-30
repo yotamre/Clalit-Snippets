@@ -13,3 +13,26 @@
 		"description": "css html, body, #root "
 	  }
 }
+	"routing": {
+		"prefix": "Clalit_JB_Course routing",
+		"body": [
+		  "function Routing(): JSX.Element {",
+		  "    return (",
+		  "        <div className=\"Routing\">",
+		  "            <Routes>",
+		  "                <Route path=\"/\" element={<App />} />",
+		  "                <Route index element={<Home />} />",
+		  "                <Route path=\"home\" element={<Home/>}/>",
+		  "                <Route path=\"tasks\" element={<TaskList/>}/>",
+		  "                <Route path=\"tasks/add\" element={<AddTask/>}/>",
+		  "                <Route path=\"about\" element={<About/>}/>",
+		  "                <Route path=\"*\" element={<Page404 />} />",
+		  "            </Routes>",
+		  "        </div>",
+		  "    );",
+		  "}",
+		  "",
+		  "export default Routing;"
+		],
+		"description": "routing"
+	  }
